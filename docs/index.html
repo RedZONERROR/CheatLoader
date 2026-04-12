@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CheatLoader - Advanced Gaming Utility & Modding Tool for Android. Load custom code, libraries, and mods in runtime with full security. Non-root support for Android 5.0 to 14+">
+    <meta name="keywords" content="CheatLoader, gaming utility, modding tool, Android mods, custom code loader, game modding, Android utility, non-root mods, container environment, secure modding">
+    <meta name="author" content="TheRedXStudio">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="CheatLoader - Advanced Gaming Utility & Modding Tool">
+    <meta property="og:description" content="Load custom code and libraries in runtime. Secure container environment. Android 5.0 to 14+ support. No root required.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://redzonerror.github.io/CheatLoader/">
+    <meta property="og:image" content="./assets/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CheatLoader - Advanced Gaming Utility & Modding Tool">
+    <meta name="twitter:description" content="Load custom code and libraries in runtime. Secure container environment. Android 5.0 to 14+ support.">
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+    <link rel="apple-touch-icon" href="./assets/logo.svg">
+    <title>CheatLoader - Advanced Gaming Utility & Modding Tool for Android</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="./assets/logo.svg" alt="CheatLoader Logo" class="logo-img">
+                    <span class="logo-text">CheatLoader</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#download" class="nav-link">Download</a>
+                    <a href="#community" class="nav-link">Community</a>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">
+                    Advanced Gaming Utility
+                    <span class="gradient-text">& Modding Tool</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in-delay">
+                    Load custom code, libraries, and mods in runtime with full security. 
+                    Run apps in isolated container environments. No root required.
+                </p>
+                <div class="hero-stats animate-fade-in-delay-2">
+                    <div class="stat-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Secure</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Android 5.0 - 14+</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-lock-open"></i>
+                        <span>No Root</span>
+                    </div>
+                </div>
+                <div class="hero-buttons animate-fade-in-delay-3">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Now
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i> Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need for advanced game modding and customization</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Code Loading</h3>
+                    <p>Load and execute custom code at runtime. Inject your own logic into any app seamlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Custom Libraries</h3>
+                    <p>Load native libraries (.so files) and Java/Kotlin libraries dynamically without repackaging.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-container-storage"></i>
+                    </div>
+                    <h3>Container Environment</h3>
+                    <p>Run apps in isolated, secure containers with full virtualization and sandboxing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Full Security</h3>
+                    <p>Advanced security features protect your device and data. No root access required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Wide Compatibility</h3>
+                    <p>Supports Android API 26 (8.0) to API 36 (14+). Works on most modern Android devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>High Performance</h3>
+                    <p>Optimized for speed and efficiency. Minimal impact on device performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple, powerful, and secure</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Install CheatLoader</h3>
+                        <p>Download and install CheatLoader on your Android device. No root required.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Load Your App</h3>
+                        <p>Import the app you want to mod into CheatLoader's secure container environment.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Add Custom Code</h3>
+                        <p>Load your custom code, libraries, or mods. Configure settings as needed.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Run & Enjoy</h3>
+                        <p>Launch the app with your modifications. Everything runs securely in the container.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="section-title">Ready to Get Started?</h2>
+                <p class="section-subtitle">Download CheatLoader and unlock the full potential of your Android device</p>
+                <div class="download-buttons">
+                    <a href="https://github.com/RedZONERROR/CheatLoader/releases/latest" class="btn btn-primary btn-large" target="_blank">
+                        <i class="fab fa-github"></i> Download from GitHub
+                    </a>
+                    <a href="https://t.me/cheatloader" class="btn btn-secondary btn-large" target="_blank">
+                        <i class="fab fa-telegram"></i> Join Telegram
+                    </a>
+                </div>
+                <div class="download-info">
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free & Open Source</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Regular Updates</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Community Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community" id="community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Community</h2>
+                <p class="section-subtitle">Connect with thousands of users and developers</p>
+            </div>
+            <div class="community-grid">
+                <a href="https://t.me/cheatloader" class="community-card" target="_blank">
+                    <div class="community-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Main Channel</h3>
+                    <p>Get latest updates, releases, and announcements</p>
+                    <span class="community-link">@cheatloader</span>
+                </a>
+                <a href="https://t.me/cheatloaderofficial" class="community-card" target="_blank">
+                    <div class="community-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Official Chat</h3>
+                    <p>Discuss, ask questions, and share your mods</p>
+                    <span class="community-link">@cheatloaderofficial</span>
+                </a>
+                <a href="https://t.me/theredxstudio" class="community-card" target="_blank">
+                    <div class="community-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>TheRedXStudio</h3>
+                    <p>Follow our development studio for more projects</p>
+                    <span class="community-link">@theredxstudio</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CheatLoader</h3>
+                    <p>Advanced gaming utility and modding tool for Android. Load custom code and libraries in runtime with full security.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="https://github.com/RedZONERROR/CheatLoader" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="https://t.me/cheatloader" target="_blank">Telegram Channel</a></li>
+                        <li><a href="https://t.me/cheatloaderofficial" target="_blank">Official Chat</a></li>
+                        <li><a href="https://t.me/theredxstudio" target="_blank">TheRedXStudio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CheatLoader by TheRedXStudio. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="https://github.com/RedZONERROR/CheatLoader/blob/main/LICENSE" target="_blank">License</a>
+                    <span class="separator">•</span>
+                    <a href="#" id="privacyLink">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" id="termsLink">Terms of Service</a>
+                </div>
+                <p class="disclaimer">For educational and research purposes only. Use responsibly.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Privacy Policy</h2>
+                <button class="modal-close" id="privacyClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Last Updated: April 12, 2024</strong></p>
+                
+                <h3>1. Introduction</h3>
+                <p>CheatLoader ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our application.</p>
+                
+                <h3>2. Information We Collect</h3>
+                <p><strong>We do NOT collect any personal information.</strong> CheatLoader operates entirely on your device and does not transmit any data to external servers.</p>
+                
+                <h4>2.1 Local Data</h4>
+                <p>CheatLoader stores the following data locally on your device:</p>
+                <ul>
+                    <li>App configurations and settings</li>
+                    <li>Imported apps and custom code</li>
+                    <li>User preferences</li>
+                    <li>Application logs (stored locally only)</li>
+                </ul>
+                
+                <h3>3. How We Use Information</h3>
+                <p>All data is used solely for:</p>
+                <ul>
+                    <li>Operating CheatLoader's core functionality</li>
+                    <li>Storing your preferences and configurations</li>
+                    <li>Debugging and troubleshooting (locally)</li>
+                </ul>
+                
+                <h3>4. Data Storage</h3>
+                <p>All data is stored locally on your device in:</p>
+                <ul>
+                    <li>App's private storage directory</li>
+                    <li>Android's standard app data locations</li>
+                    <li>No cloud storage or external servers</li>
+                </ul>
+                
+                <h3>5. Third-Party Services</h3>
+                <p>CheatLoader does not integrate with any third-party analytics, tracking, or advertising services.</p>
+                
+                <h3>6. Permissions</h3>
+                <p>CheatLoader requests the following permissions:</p>
+                <ul>
+                    <li><strong>Storage</strong>: To read and write app data, import APKs, and load custom code</li>
+                    <li><strong>Install Packages</strong>: To install apps in the container environment</li>
+                    <li>All permissions are used solely for app functionality</li>
+                </ul>
+                
+                <h3>7. Data Security</h3>
+                <p>We implement security measures to protect your data:</p>
+                <ul>
+                    <li>All data remains on your device</li>
+                    <li>Container isolation for running apps</li>
+                    <li>No data transmission to external servers</li>
+                    <li>Standard Android security practices</li>
+                </ul>
+                
+                <h3>8. Children's Privacy</h3>
+                <p>CheatLoader is not intended for children under 13. We do not knowingly collect information from children.</p>
+                
+                <h3>9. Changes to Privacy Policy</h3>
+                <p>We may update this Privacy Policy. Changes will be posted on this page with an updated "Last Updated" date.</p>
+                
+                <h3>10. Open Source</h3>
+                <p>CheatLoader is open source. You can review our code at <a href="https://github.com/RedZONERROR/CheatLoader" target="_blank">GitHub</a> to verify our privacy practices.</p>
+                
+                <h3>11. Contact Us</h3>
+                <p>For privacy concerns or questions:</p>
+                <ul>
+                    <li>Telegram: <a href="https://t.me/cheatloaderofficial" target="_blank">@cheatloaderofficial</a></li>
+                    <li>GitHub: <a href="https://github.com/RedZONERROR/CheatLoader/issues" target="_blank">Issues</a></li>
+                </ul>
+                
+                <h3>12. Your Rights</h3>
+                <p>Since all data is stored locally on your device, you have complete control:</p>
+                <ul>
+                    <li>Delete data by clearing app data or uninstalling</li>
+                    <li>Export configurations manually</li>
+                    <li>No data retention on external servers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Terms of Service</h2>
+                <button class="modal-close" id="termsClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Last Updated: April 12, 2024</strong></p>
+                
+                <h3>1. Acceptance of Terms</h3>
+                <p>By downloading, installing, or using CheatLoader, you agree to be bound by these Terms of Service. If you do not agree, do not use CheatLoader.</p>
+                
+                <h3>2. Description of Service</h3>
+                <p>CheatLoader is a gaming utility and modding tool that allows users to:</p>
+                <ul>
+                    <li>Load custom code and libraries at runtime</li>
+                    <li>Run apps in isolated container environments</li>
+                    <li>Modify app behavior for personal use</li>
+                    <li>Test and develop modifications</li>
+                </ul>
+                
+                <h3>3. Permitted Uses</h3>
+                <p>CheatLoader may be used for:</p>
+                <ul>
+                    <li>✅ Educational and learning purposes</li>
+                    <li>✅ Personal app customization</li>
+                    <li>✅ Development and testing</li>
+                    <li>✅ Research and security analysis</li>
+                    <li>✅ Offline single-player modifications</li>
+                </ul>
+                
+                <h3>4. Prohibited Uses</h3>
+                <p>You agree NOT to use CheatLoader for:</p>
+                <ul>
+                    <li>❌ Cheating in online multiplayer games</li>
+                    <li>❌ Violating any app's Terms of Service</li>
+                    <li>❌ Copyright infringement or piracy</li>
+                    <li>❌ Distributing modified apps without permission</li>
+                    <li>❌ Malicious purposes or harm to others</li>
+                    <li>❌ Bypassing security measures for unauthorized access</li>
+                    <li>❌ Any illegal activities</li>
+                </ul>
+                
+                <h3>5. User Responsibilities</h3>
+                <p>You are responsible for:</p>
+                <ul>
+                    <li>Complying with all applicable laws and regulations</li>
+                    <li>Respecting intellectual property rights</li>
+                    <li>Following terms of service of modified apps</li>
+                    <li>Using CheatLoader ethically and responsibly</li>
+                    <li>Any consequences of your use of CheatLoader</li>
+                </ul>
+                
+                <h3>6. Disclaimer of Warranties</h3>
+                <p>CheatLoader is provided "AS IS" without warranties of any kind:</p>
+                <ul>
+                    <li>No guarantee of functionality or compatibility</li>
+                    <li>No warranty of merchantability or fitness</li>
+                    <li>Use at your own risk</li>
+                    <li>We do not guarantee uninterrupted or error-free operation</li>
+                </ul>
+                
+                <h3>7. Limitation of Liability</h3>
+                <p>To the maximum extent permitted by law:</p>
+                <ul>
+                    <li>We are not liable for any damages arising from use of CheatLoader</li>
+                    <li>We are not responsible for account bans or suspensions</li>
+                    <li>We are not liable for data loss or device damage</li>
+                    <li>We are not responsible for violations of third-party terms</li>
+                </ul>
+                
+                <h3>8. Account Bans and Consequences</h3>
+                <p><strong>Important Warning:</strong></p>
+                <ul>
+                    <li>Using CheatLoader with online games may result in permanent bans</li>
+                    <li>We are not responsible for any bans or suspensions</li>
+                    <li>Game developers have the right to ban users who violate their ToS</li>
+                    <li>Use CheatLoader responsibly and at your own risk</li>
+                </ul>
+                
+                <h3>9. Intellectual Property</h3>
+                <p>CheatLoader is open source under the MIT License:</p>
+                <ul>
+                    <li>You may use, modify, and distribute the code</li>
+                    <li>Attribution is required</li>
+                    <li>See LICENSE file for full terms</li>
+                    <li>Respect third-party intellectual property</li>
+                </ul>
+                
+                <h3>10. Modifications to Service</h3>
+                <p>We reserve the right to:</p>
+                <ul>
+                    <li>Modify or discontinue CheatLoader at any time</li>
+                    <li>Update these Terms of Service</li>
+                    <li>Change features or functionality</li>
+                    <li>No obligation to provide updates or support</li>
+                </ul>
+                
+                <h3>11. Third-Party Apps and Content</h3>
+                <p>Regarding apps you modify with CheatLoader:</p>
+                <ul>
+                    <li>You must own or have rights to modify the app</li>
+                    <li>Respect the original app's terms of service</li>
+                    <li>Do not distribute modified apps without permission</li>
+                    <li>We are not affiliated with any third-party apps</li>
+                </ul>
+                
+                <h3>12. Indemnification</h3>
+                <p>You agree to indemnify and hold harmless CheatLoader developers from:</p>
+                <ul>
+                    <li>Any claims arising from your use of CheatLoader</li>
+                    <li>Violations of these Terms of Service</li>
+                    <li>Violations of third-party rights</li>
+                    <li>Any illegal activities</li>
+                </ul>
+                
+                <h3>13. Governing Law</h3>
+                <p>These Terms are governed by applicable international laws. Disputes shall be resolved through arbitration or appropriate legal channels.</p>
+                
+                <h3>14. Severability</h3>
+                <p>If any provision of these Terms is found invalid, the remaining provisions remain in effect.</p>
+                
+                <h3>15. Entire Agreement</h3>
+                <p>These Terms constitute the entire agreement between you and CheatLoader regarding use of the service.</p>
+                
+                <h3>16. Contact Information</h3>
+                <p>For questions about these Terms:</p>
+                <ul>
+                    <li>Telegram: <a href="https://t.me/cheatloaderofficial" target="_blank">@cheatloaderofficial</a></li>
+                    <li>GitHub: <a href="https://github.com/RedZONERROR/CheatLoader" target="_blank">CheatLoader Repository</a></li>
+                </ul>
+                
+                <h3>17. Acknowledgment</h3>
+                <p>By using CheatLoader, you acknowledge that:</p>
+                <ul>
+                    <li>You have read and understood these Terms</li>
+                    <li>You agree to use CheatLoader responsibly</li>
+                    <li>You accept all risks associated with use</li>
+                    <li>You will comply with all applicable laws</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
