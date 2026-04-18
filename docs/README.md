@@ -73,7 +73,6 @@ CheatLoader supports multiple ways to load custom code:
 
 Apps run in a secure, isolated container that provides:
 
-- **Process Isolation** - Separate process space
 - **File System Virtualization** - Isolated file system
 - **Permission Management** - Granular permission control
 - **Network Isolation** - Optional network sandboxing
@@ -92,7 +91,6 @@ Join our vibrant community of developers and modders:
 
 CheatLoader uses advanced virtualization techniques:
 
-- **Process Virtualization** - Isolated process environment
 - **Dynamic Code Loading** - Runtime code injection
 - **Native Hook Framework** - Low-level system hooks
 - **Security Sandbox** - Multi-layer security protection
@@ -122,20 +120,6 @@ CheatLoader is provided for **educational and research purposes only**. Users ar
 
 CheatLoader is licensed under the MIT License. See [LICENSE](https://github.com/RedZONERROR/CheatLoader/blob/main/LICENSE) for details.
 
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/RedZONERROR/CheatLoader.git
-
-# Open in Android Studio
-# Build and run
-```
-
 ## 📞 Support
 
 Need help? Here's how to get support:
@@ -143,7 +127,6 @@ Need help? Here's how to get support:
 1. **📖 Documentation** - Check our [Wiki](https://github.com/RedZONERROR/CheatLoader/wiki)
 2. **💬 Telegram Chat** - Ask in [@cheatloaderofficial](https://t.me/cheatloaderofficial)
 3. **🐛 Issues** - Report bugs on [GitHub Issues](https://github.com/RedZONERROR/CheatLoader/issues)
-4. **📧 Email** - Contact us at support@theredxstudio.com
 
 ## 🌟 Acknowledgments
 
@@ -152,30 +135,6 @@ Special thanks to:
 - The Android modding community
 - Open source contributors
 - Our amazing users and testers
-
-## 📊 Statistics
-
-- **⭐ GitHub Stars** - Growing community
-- **📥 Downloads** - Thousands of users worldwide
-- **🌍 Languages** - Available in multiple languages
-- **🔄 Updates** - Regular updates and improvements
-
-## 🔮 Roadmap
-
-### Coming Soon
-
-- [ ] Enhanced UI/UX
-- [ ] More scripting languages support
-- [ ] Cloud sync for mods
-- [ ] Mod marketplace
-- [ ] Advanced debugging tools
-- [ ] Plugin system
-
-## 📱 Screenshots
-
-![Screenshot 1](./assets/screenshot1.png)
-![Screenshot 2](./assets/screenshot2.png)
-![Screenshot 3](./assets/screenshot3.png)
 
 ---
 
